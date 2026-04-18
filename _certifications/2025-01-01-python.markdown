@@ -1,5 +1,5 @@
 ---
 title: "Python Data Structures"
-image: "img/portfolio/python.png"
+image: python.png
 ---
 
