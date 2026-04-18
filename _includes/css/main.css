@@ -503,3 +503,15 @@ footer .footer-below {
 hr.star-light:after {
     background-color: transparent !important;
 }
+/* Modern Lift and Scale Hover Animation for Grid Items */
+.portfolio-item .portfolio-link img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee; /* Adds a very faint border to define white certificates on a white background */
+}
+
+.portfolio-item .portfolio-link:hover img {
+    transform: scale(1.03); /* Zooms the image in by 3% */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Adds a soft drop shadow so it looks like it's floating */
+    z-index: 10; /* Ensures the zoomed image stays above the others */
+    position: relative;
+}
