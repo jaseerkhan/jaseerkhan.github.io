@@ -1,21 +1,13 @@
 ---
 
 layout: post
-
-modal-id: 3
-
+modal-id: 2
 date: 2025-04-18
-
 img: python.png
-
 alt: image-alt
-
 project-date: July 2025
-
 client: My Self
-
 category: Certificate
-
 description: "Certificate from University Of Michigan in Python Data Structures."
 
 ---
