@@ -1,4 +1,4 @@
-\---
+---
 
 layout: post
 
@@ -18,5 +18,5 @@ category: Certificate
 
 description: "Certificate from University Of Michigan in Python Data Structures."
 
-\---
+---
 
