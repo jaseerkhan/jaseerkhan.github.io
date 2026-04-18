@@ -482,3 +482,18 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+/* Rounded Profile Picture Styles */
+.round-profile-container {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adds a subtle drop shadow */
+}
+
+.round-profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
