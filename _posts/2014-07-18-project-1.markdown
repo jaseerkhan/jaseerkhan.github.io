@@ -1,19 +1,23 @@
 ---
 layout: default
 modal-id: 1
-date: 2026-04-18
+date: 2025-04-18
 img: bim.png
 alt: image-alt
 project-date: July 2025
 client: My Self
 category: BIM Modeling
-description:Over the past week, I’ve been working on modeling a two-story academic block inspired by UET Peshawar’s Bannu campus. What started as CAD practice evolved into a complete BIM learning experience in Revit, covering architectural, structural, and interior components.
+description: "Over the past week, I've been working on modeling a two-story academic block inspired by UET Peshawar's Bannu campus."
+---
 
- ✅ Modeled structural elements: columns, beams, slabs, roof, and parapet
- ✅ Designed complete architecture: floor plans, elevations, sections
- ✅ Interior detailing for classrooms, labs, and offices
- ✅ 5–6 realistic renders – cloud-rendered and AI-enhanced 
- ✅ Now documented into 9 professional sheets 
+✅ Modeled structural elements: columns, beams, slabs, roof, and parapet
+
+✅ Designed complete architecture: floor plans, elevations, sections
+
+✅ Interior detailing for classrooms, labs, and offices
+
+✅ 5-6 realistic renders – cloud-rendered and AI-enhanced
+
+✅ Now documented into 9 professional sheets
 
 🚀 This project pushed my Revit skills beyond just modeling into documentation, detailing, and presentation.
----
