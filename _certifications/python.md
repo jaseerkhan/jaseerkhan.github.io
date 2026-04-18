@@ -1,14 +1,24 @@
 \---
 
-layout: post
+layout: default
 
-title: "Python Data Structures"
+modal-id: 1
 
-description: "Python Data Structures from University Of Michigan"
+date: 2025-04-18
 
-image: "img/portfolio/python.png"
+img: python.png
+
+alt: image-alt
+
+project-date: July 2025
+
+client: My Self
+
+category: Certificate
+
+description: "Certificate from University Of Michigan in Python Data Structures."
 
 \---
 
-This is my official Python certification, demonstrating my technical proficiency in Python Data Structures.
+
 
