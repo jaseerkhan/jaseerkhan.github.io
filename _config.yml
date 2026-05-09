@@ -1,7 +1,8 @@
 # Site settings
 title: Muhammad Jaseer Khan
 email: jaseerkhan123456@gmail.com
-url: https://jaseerkhan.me
+url: "https://jaseerkhan.me"
+baseurl: ""
 description: "Portfolio of Muhammad Jaseer Khan. Bridging technical civil engineering with strategic urban planning and transportation design to build efficient, scalable infrastructure"
 keywords: "Civil Engineering, UET Peshawar, Structural Analysis, Documentaries, Public Speaking, urban planning, revit, bim, 3d bim, 4d bim, 5d bim, urban infrastructure,jaseer,jaseer khan,muhammad jaseer,muhammad jaseer khan"
 skills: "Revit | AutoCad | Urban Planning"
