@@ -1,60 +1,52 @@
 # Site settings
 title: Muhammad Jaseer Khan
 email: jaseerkhan123456@gmail.com
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://jaseerkhan.github.io
 description: "Portfolio of Muhammad Jaseer Khan. Bridging technical civil engineering with strategic urban planning and transportation design to build efficient, scalable infrastructure"
-keywords: "Civil Engineering, UET Peshawar, Structural Analysis, Documentaries, Public Speaking,urban planning,revit,bim,3d bim,4d bim,5d bim,urban infrastructure,jaseer,jaseer khan,muhammad jaseer khan"
-skills: "Revit | AutoCad  | Urban Planning"
-meta_author: Khan Muhammad Jaseer
+keywords: "Civil Engineering, UET Peshawar, Structural Analysis, Documentaries, Public Speaking, urban planning, revit, bim, 3d bim, 4d bim, 5d bim, urban infrastructure,jaseer,jaseer khan,muhammad jaseer,muhammad jaseer khan"
+skills: "Revit | AutoCad | Urban Planning"
+meta_author: "Khan Muhammad Jaseer"
 
 # Google webmaster tools
-google_verify:'PU2yvwAb2Sav1vOfJkkMhB9vu-mw50BHppEkWJvoo_E'
+google_verify: "PU2yvwAb2Sav1vOfJkkMhB9vu-mw50BHppEkWJvoo_E"
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Bing webmaster tools
+bing_verify: ""
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+# Contact form
 contact: static
+disqus_shortname: ""
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings
 color:
   primary: '2980b9'
   primary-rgb: '41,128,185'
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: '2c3e50'
+  secondary-dark: '233140'
 
 # Footer settings
 footer:
   copyright: Muhammad Jaseer Khan
   location: Peshawar, Pakistan
   social: Around the Web
-  credits: Credits
+  credits: ""
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: linkdln
     url: https://www.linkedin.com/in/mjk1175/
   - title: behance
     url: https://www.behance.net/mjk1175
 
-# Postal address (add as many lines as necessary)
+# Postal address
 address:
   - line: Mohallah Danda, Village Tehsil And P/O Charbagh, District Swat
-
-# Credits content
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-#for posts
+# For posts
 defaults:
   - scope:
       path: ""
