@@ -481,24 +481,35 @@ footer .footer-below {
 
 /* --- CLEAN PROFESSIONAL AESTHETIC --- */
 
-/* 1. Fix the Line and Star Colors */
+/* 1. Fix the Profile Picture (Circular) */
+header img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;       /* Ensures a perfect circle */
+    height: 200px;      /* Ensures a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;  /* Prevents stretching */
+    border: 5px solid rgba(255, 255, 255, 0.3); /* Subtle professional border */
+}
+
+/* 2. Fix the Line and Star Colors */
 hr.star-light {
     border-color: #fff;
 }
 hr.star-light:after {
     color: #fff;
-    background-color: transparent !important; /* Removes the "boxy" look in About/Header */
+    background-color: transparent !important; /* Keeps the header look clean */
 }
 
 hr.star-primary {
-    border-color: #2980b9 !important; /* This makes the lines Industrial Blue */
+    border-color: #2980b9 !important; /* This is your Industrial Blue */
 }
 hr.star-primary:after {
     color: #2980b9 !important;
-    background-color: #fff !important; /* Star cuts the blue line cleanly on white backgrounds */
+    background-color: #fff !important; /* Ensures the star is visible on white background */
 }
 
-/* 2. Restore Proper Star Centering */
+/* 3. Restore Proper Centering for Star and Line */
 hr.star-light, hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -513,13 +524,23 @@ hr.star-light:after, hr.star-primary:after {
     content: "\f005";
     display: inline-block;
     position: relative;
-    top: -.8em;
+    top: -.8em; /* Adjusts the star vertically to sit on the line */
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
 }
 
-/* 3. Footer Branding */
+/* 4. Footer Branding and Icons */
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
 .btn-social.linkedin {
     color: #0077b5 !important;
     border-color: #0077b5 !important;
