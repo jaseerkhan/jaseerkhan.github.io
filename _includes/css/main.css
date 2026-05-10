@@ -558,3 +558,24 @@ hr.star-light:after, hr.star-primary:after {
     background-color: #1769ff !important;
     color: white !important;
 }
+/* --- MOBILE ALIGNMENT REFINEMENTS --- */
+
+@media(max-width: 767px) {
+    /* Scale down section headings so they don't overflow */
+    section h2 {
+        font-size: 2.2em !important; 
+        width: 100%;
+        text-align: center;
+        padding: 0 10px; /* Adds a safety buffer on the sides */
+    }
+
+    /* Ensure the star line scales with the smaller text */
+    hr.star-light, hr.star-primary {
+        max-width: 180px; 
+    }
+
+    /* Resets any offsets that might be pushing text to the right on mobile */
+    .col-lg-offset-2, .col-md-offset-2 {
+        margin-left: 0 !important;
+    }
+}
