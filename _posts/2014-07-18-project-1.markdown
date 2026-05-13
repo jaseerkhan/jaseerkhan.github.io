@@ -7,8 +7,7 @@ alt: image-alt
 project-date: July 2025
 client: My Self
 category: BIM Modeling
-description: "Over the past week, I've been working on modeling a two-story academic block inspired by UET Peshawar's Bannu campus."
-
+description: "Over the past week, I've been working on modeling a two-story academic block inspired by UET Peshawar's Bannu campus.
 
 ✅ Modeled structural elements: columns, beams, slabs, roof, and parapet
 
@@ -20,5 +19,5 @@ description: "Over the past week, I've been working on modeling a two-story acad
 
 ✅ Now documented into 9 professional sheets
 
-🚀 This project pushed my Revit skills beyond just modeling into documentation, detailing, and presentation.
+🚀 This project pushed my Revit skills beyond just modeling into documentation, detailing, and presentation."
 ---
